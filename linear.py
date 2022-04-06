@@ -36,7 +36,7 @@ md.replace('?', 0, inplace = True)
 
 # print(md)
 
-trainNo = 700
+trainNo = 1000
 X = md.iloc[:, 0:8].values.reshape(-1, 8)  # values converts it into a numpy array
 Y = md.iloc[:, 8:9].values.reshape(-1, 1)  # -1 means that calculate the dimension of rows, but have 1 column
 # print(X)
